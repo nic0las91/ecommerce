@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">    
+    <!-- Estilo-->
+     <link rel="stylesheet" href="style.css">
+     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <title>Curso Javascript</title>
+</head>
+<body id="oscu">
+
+
+  <section class="titulo">
+   <p>¡Nuestros productos!</p>
+  </section>
+
+  <aside>
+    <div class="container">
+      <div class="row">
+          <!-- Elementos generados a partir del JSON -->
+          <main id="items" class="col-sm-8 row"></main>
+          <!-- Carrito -->
+          <aside class="col-sm-4">
+              <h2>carrito</h2>
+              <!-- Elementos del carrito -->
+              <ul id="carrito" class="list-group"></ul>
+              <hr>
+              <!-- Precio total -->
+              <p class="text-right">Total: $ <span id="total"></span></p>
+              <button id="comprar" class="btn btn-primary"><a href="compra.html">Comprar</a></button>
+              <button id="boton-vaciar" class="btn btn-danger">Vaciar</button>
+              
+          </aside>
+      </div>
+  </div>
+  </aside>
+
+  <section class="section-contacto">
+    <h23>Dejanos tu correo y recibi las ofertas primero que nadie</h2>
+  
+
+  <form action="" method="POST">
+    <div class="form-row">
+      <label for="email"></label>
+        <input type="email" name="email" id="email"
+        placeholder="email@email.com" required>
+        <button id="boton" type="submit">Enviar</button>
+    </div> 
+  </form>
+  </section>
+
+
+  <footer>
+    <div>
+      <ul>
+        <li><strong>¿Consultas?</strong> </li>
+        <li><a style="font-size: small;" href="#">Escribinos</a></li>
+      </ul>
+    </div>
+    <div>    
+      <ul>  
+        <li><strong> Conocenos</strong></li>
+        <li>Misión de la empresa</li>
+        <li>Objetivo</li>
+        <li>Convenios</li>
+        <li>Trabajá con nosotros</li>
+      </ul>
+    </div>
+      <div>
+        <ul>
+          <li><strong>Nuestros medios de pago</strong></li>
+          <li><img src="img/pago.JPG" alt=""> </li>
+
+         </ul>
+      </div>
+  </footer>
+  <section class="copy">Realizada por Nicolas Damiano Dic 2021</section>
+
+  <!--Script JS-->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+    </body>
+</html>
